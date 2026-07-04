@@ -25,7 +25,7 @@ func main() {
 	// Create index.html header
 	indexFile, _ := os.Create("docs/index.html")
 	defer indexFile.Close()
-	indexFile.WriteString("<!DOCTYPE html><html lang='en'><head><title>My Blog</title><link rel='stylesheet' href='style.css'></head><body><h1>Latest Posts</h1><ul>")
+	indexFile.WriteString("<!DOCTYPE html><html lang='en'><head><title>Betterment</title><link rel='stylesheet' href='style.css'></head><body><h1>Betterment podcast/blog</h1><h2>Latest posts</h2><ul>")
 
 	for _, file := range files {
 		md, _ := os.ReadFile(file)
