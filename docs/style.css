@@ -1,0 +1,38 @@
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #333;
+  background-color: #fafafa;
+}
+header {
+  margin-bottom: 2rem;
+}
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+pre,
+code {
+  background-color: #e8e8e8;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+}
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
